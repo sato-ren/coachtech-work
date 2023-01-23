@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社TECH</title>
+</head>
+<body>
+  <header class="header">
+    <h1>株式会社TECH</h1>
+  </header>
+  <ul>
+    <li>
+      <a href="" class="item">ホーム</a>
+    </li>
+    <li>
+      <a href="" class="item">企業情報</a>
+    </li>
+    <li>
+      <a href="overview" class="item">会社概要</a>
+    </li>
+    <li>
+      <a href="" class="item">よくある質問</a>
+    </li>
+    <li>
+      <a href="inquiry" class="item">お問い合わせ</a>
+    </li>
+  </ul>
+  <div class="view">
+    <img src="mv.png" alt="画像">
+  </div>
+  <p>最新のテクノロジーで<em>社会課題</em>を解決</p>
+  <table>
+    <h2 class="overview">会社概要</h2>
+    <tr>
+      <th>会社名</th>
+      <td>株式会社TECH</td>
+    </tr>
+    <tr>
+      <th>代表者</th>
+      <td>山田太郎</td>
+    </tr>
+    <tr>
+      <th>所在地</th>
+      <td>東京都渋谷区神宮前</td>
+    </tr>
+    <tr>
+      <th>設立</th>
+      <td>2019/07/17</td>
+    </tr>
+    <tr>
+      <th>従業員数</th>
+      <td>100人</td>
+    </tr>
+    <tr>
+      <th>資本金</th>
+      <td>1000万円</td>
+    </tr>
+  </table>
+  <form action="送信先" method="post">
+    <h2>お問い合わせ</h2>
+    <label for="conpany">会社名</label>
+    <input type="text" name="conpany" id="conpany">
+    <label for="name">お名前</label>
+    <input type="text" name="name" id="name">
+    <label for="mail">メールアドレス</label>
+    <input type="text" name="mail" id="mail">
+    <label for="content">お問い合わせ内容</label>
+    <textarea name="content" id="content" cols="30" rows="5"></textarea>
+    <input type="submit" value="お申し込み">
+  </form>
+  <footer class="footer">
+    <small>©2022 TECH imc.</small>
+  </footer>
+</body>
+</html>
